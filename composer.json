@@ -1,0 +1,19 @@
+{
+    "name": "nidup/test-composer-standard",
+    "require": {
+        "nidup/test-composer-dev": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nidup/test-composer-dev.git",
+            "branch": "master"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.3.x-dev"
+        }
+    }
+}
